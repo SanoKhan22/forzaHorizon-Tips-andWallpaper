@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.Sano.urdupoetry.Goldtips">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6165143774808397/5349846401"></com.google.android.gms.ads.AdView>
+        //1
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/may3" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#45270F"
+            android:fontFamily="@font/krona_one"
+            android:padding="20dp"
+            android:text="Making Passes: Look for Openings, Don't Trade Paint\n\nManeuverability plays as much a role in winning a race as speed does. Sure, trading paint is fun... and frankly inevitable in some races but, slowing down and exercising patience to look for and exploit openings is a way better option.  You want to carefully watch the driver ahead of you and try to predict how they’re going to turn. How they turn informs what kind of pass you make: either an inside or outside pass. Watch their race line carefully and keep an eye on their speed, how fast they approach a turn, how they slow down and when they slow down. Execute an inside pass when the driver ahead goes in too wide on the turn leaving enough room for you to slide in uninvited. Stick as close to the apex as you can because you’ll be out of the turn faster. An outside pass is best when your opponent already has the corner but you have a car that can accelerate faster. Go around on the outside alongside them and duke it out!  Your opponents are also doing this to so try not to give them openings during turns. You can block inside passes by going into turns staying as close to the apex as possible so you have the corner. Block an outside pass by speeding up like a gentleman, swerving to block the path or just smashing into the other racer."
+            android:textAlignment="viewStart"
+            android:textColor="#EFEFE2"
+            android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/p12" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#331309"
+            android:fontFamily="@font/days_one"
+            android:padding="20dp"
+            android:text="Just driving through an open field,\n\n man  There is just something about the way grass in this game rushes up to meet the eye at the bottom of the screen—beautifully rendered and artfully blurred—that I really do find irresistible. It reminds me a little of galloping across the green expanse of the Playstation 4 Shadow of the Colossus remake, although with a lot more than one horsepower and without the cinematic “rule of thirds” framing. I could do it all day, and it’s even better when you’re taking a Bugatti off road and doing donuts in the dirt."
+            android:textAlignment="viewStart"
+            android:textColor="#FFFF8D"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</ScrollView>

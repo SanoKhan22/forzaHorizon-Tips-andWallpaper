@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#051F1F"
+    tools:context=".poetrytwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-162dp">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6165143774808397/5349846401"></com.google.android.gms.ads.AdView>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/p30" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:textAlignment="center"
+            android:background="#882C1717"
+            android:layout_marginTop="-220dp"
+            android:fontFamily="@font/marko_one"
+            android:lineSpacingExtra="8sp"
+            android:text="TIPS AND\nTRICKS"
+            android:textAllCaps="true"
+            android:textColor="#E2E21A"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#253541"
+            android:padding="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/marko_one"
+            android:text="1(one).\nBe at the Top of Your Forza Horizon 4 Game\n
+
+Forza Horizon 4 is finally here, and it is simply stunning.
+Have you read our review of it yet? You should, if only to find out why we awarded it a 10/10. Basically, it’s the best racing game available right now, so whether you game on PC or Xbox One, you need to play it.
+
+We’ve put an awful lot of time into Forza Horizon 4 over the past week, exploring its world and completing events. Hopefully our time spent with the game can benefit you, helping you get the most out of it.
+
+Take note of our 10 handy tips below to get ahead of the competition as soon as you get your hands on Forza Horizon 4…"
+            android:textAlignment="viewStart"
+            android:textColor="#ECE2F1"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p11" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#271010"
+            android:padding="20dp"
+            android:fontFamily="@font/krona_one"
+            android:text="2...\nUnlock Perks on Your Favourite Cars\n
+In Forza Horizon 4, you no longer unlock perks that follow you from car to car. Instead, each car has its own small grid of perks to unlock. From boosting skill score for completing certain actions, to awarding you with free Wheelspins, each perk has its benefits, but you’ll need to spend skill points to unlock them. Thankfully, they’re easier to acquire than ever.
+
+To get the most out of your time spent with Forza Horizon 4 then, build up a small pool of your favourite cars and prioritise unlocking the perks on them. It’ll allow you to earn skill score easier, increasing the number of skill points you acquire. And it’ll also allow you to earn more influence driving the cars you love. It’s a win-win situation."
+            android:textAlignment="viewStart"
+            android:textColor="#FFFF8D"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p10" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#3F2E16"
+            android:padding="20dp"
+            android:fontFamily="@font/marko_one"
+            android:text=" 3(Three)\nUnlock Skill Songs as Soon as You Can\n
+Unlike in Forza Horizon 3, Skill Songs are not available in Forza Horizon 4 from the outset. Instead, you need to unlock them by buying The Huntsman’s Lodge, which costs 750,000 credits. Once you’ve purchased it Skill Songs will then occur on a regular basis, operating in the same way that they did in Forza Horizon 3.
+
+For those who are entering the Forza Horizon series with Forza Horizon 4, while a skill song is playing, you’ll net a x2 bonus to all skill score, allowing you to rack up some mighty skill chains. We’ve managed to gain in excess of seven skill points in one combo in Forza Horizon 4. Oh, and tune in to the classical music radio station if you want to get the most out of skill songs. Its tracks are definitely the longest."
+            android:textAlignment="center"
+            android:textColor="#B9F6CA"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p36" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#4F2655"
+            android:fontFamily="@font/krona_one"
+            android:padding="20dp"
+            android:text="4(Four)\nChoose the Right Car For the Job\nThere are many beautiful rear wheel drive cars in Forza Horizon 4. While they look nice and go fast, however, they’re pretty useless in the snow, and also for exploring.
+
+Choosing the right car for the job is imperative in Forza Horizon 4. If you’re wanting to explore the world, go for an all-wheel drive car with plenty of power. For rally events, have a car equipped with dirt tyres. You get the idea. Each and every car has its strengths and weaknesses, so make use of them. It’s easier than ever to do so thanks to be being able to switch cars pretty much anywhere.
+
+Visit our Forza Horizon 4 Information Hub for more hints, tips and"
+            android:textAlignment="center"
+            android:textColor="#C0CFC3"
+
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p20" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#271010"
+            android:padding="20dp"
+            android:fontFamily="@font/days_one"
+            android:text="5(Five)\nHead to the Beach For Epic Skill Chains\nIf you want to rack up ridiculous skill chains that will earn you massive amounts of skill score and multiple skill points, head to the beach on the eastern side of the map.
+
+It has objects to wreck, plenty of hills to get some air on, and is relatively free of obstructions. Drive like a maniac, drifting while going over bumps, and you’ll accumulate skill score very quickly. Even better, head there if you can while a Skill Song is active to reap even more benefits. It’s the best place we’ve found to earn skill score in Forza Horizon 4."
+            android:textAlignment="viewStart"
+            android:textColor="#CCFF90"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p19" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#252E77"
+            android:padding="20dp"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="6(Six)\nTake Part in Limited Time Events\nSeasonal events, Forzathon challenges and Forzathon Live events; Forza Horizon 4 has many limited time events which are really worth your time.
+
+Completing seasonal events will reward you with credits and even Wheelspins if you tackle them on harder difficulties, while Forzathon challenges and Live events are where you’ll earn Forzathon points which can be spent in the new Forzathon shop. The items available in the Forzathon shop change on a weekly basis, but you’re likely to find rare cars and customisation items there, as well as Wheelspins. Needless to say, take part in limited time events and you’ll find yourself showered with rewards on a regular basis."
+            android:textAlignment="center"
+            android:textColor="#C0CFC3"
+            android:textSize="18sp" />
+
+
+
+        //7
+
+               <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p12" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#394418"
+            android:padding="20dp"
+            android:fontFamily="@font/marko_one"
+            android:text="7(Seven)\nBuy Properties\nNew to Forza Horizon 4 are properties that you can buy spread across the map. You’ll get your first one for free, but others can cost as much as 15,000,000 credits.
+
+Properties are handy for two reasons. One, they give you somewhere you can go to buy and sell cars and also tinker with their settings. And two, many of them provide you with fantastic bonuses. From giving you double Forzathon Points to allowing you to fast travel anywhere, some properties are definitely worth buying as soon as you can. Most of them also offer a number of Super Wheelspins when bought, too. Chances are you’ll make a great deal of money back on them, softening the blow of your initial outflow of credits."
+            android:textAlignment="viewStart"
+            android:textColor="#1BC453"
+            android:textSize="18sp" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/p11" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#004628"
+            android:padding="20dp"
+            android:fontFamily="@font/marko_one"
+            android:text="8(Eight)\nFind the Settings That Work For You\nForza Horizon 4 is all about having fun. If you find that you’re having a hard time controlling cars, head on over to the options menu and select normal handling instead of simulation. If you want more of a challenge, why not turn the Drivatar difficulty up or turn off the rewind feature.
+
+Find the settings that work for you. Sure, you get more money for making the game harder, but it doesn’t change your fortunes that much – you earn most of your money from Wheelspins and Super Wheelspins. Also, if you’re playing on Xbox One X, try out both Quality and Performance settings to see what works best for you."
+            android:textAlignment="center"
+            android:textColor="#1BB0C4"
+            android:textSize="18sp" />
+
+        //9
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p25" />
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#DBD818"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#14461C"
+            android:padding="20dp"
+            android:fontFamily="@font/marko_one"
+            android:text="9(Nine)\nUse the Terrain to Get Those Tricky Bonus Boards\nAs usual, there are lots and lots of bonus boards dotted around the map; fast travel boards that reduce the cost of warping about the map at will, and influence boards that give you an instant lump sum of progression boosting influence.
+
+Sometimes you’ll spot an icon for a board on the mini-map, drive to its location, and then find yourself stroking your chin as to how to reach it. When they’re in hard to reach areas such as on roofs, check the terrain nearby – there’s likely a hill or a ramp that can be used to reach it. You just need to get your speed and angle just right."/>
+
+        //10
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/p10" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#633535"
+            android:fontFamily="sans-serif-black"
+            android:padding="20dp"
+            android:text="10(Ten)\nMake Use of Rewind\nIt may feel like cheating, but make ample use of the rewind feature to make life easier for yourself in Forza Horizon 4.
+
+When completing Danger Jump PR stunts, for instance, rewind if you need a bit more speed or a better angle to get three stars. It’s handy to rectify mistakes that you make when completing stunt and car rental missions too. Sometimes you need a perfect run to get three stars, and without using rewind it can be a grave challenge."
+            android:textColor="#ECF1EE"
+            android:textSize="22sp" />
+
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF8A80"
+            android:textSize="28sp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/bungee_inline"
+            android:text="All THE BEST "/>
+
+
+    </LinearLayout>
+</ScrollView>

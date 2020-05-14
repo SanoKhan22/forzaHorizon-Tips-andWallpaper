@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p16"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:id="@+id/btnPoetry"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnbg"
+            android:fontFamily="@font/bungee_inline"
+            android:onClick="btnUrduPoetry"
+            android:text="Wallpapers"
+            android:textColor="#E23739A2"
+            android:textSize="26sp"
+            android:padding="23dp"
+            android:textStyle="bold" />
+
+
+
+
+        <Button
+            android:id="@+id/btnPoetry2"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnbg"
+            android:fontFamily="@font/bungee_inline"
+            android:onClick="btnUrduPoetry2"
+            android:text="Tips/Tricks"
+            android:textColor="#E425358D"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        //thired btn
+        <Button
+            android:id="@+id/golden_btn"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg"
+            android:fontFamily="@font/bungee_inline"
+            android:onClick="goldenbtn"
+            android:padding="23dp"
+            android:text="Golden Tip"
+            android:textColor="#E23739A2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnShareWithFriends"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="260dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.31"
+            android:layout_marginTop="15dp"
+            android:background="#B01E5974"
+            android:drawableRight="@drawable/share2"
+            android:fontFamily="@font/baloo_thambi"
+            android:onClick="shareWithFriends"
+            android:text="Share"
+            android:textColor="#EFF5EE"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRate"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="260dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/btnMoreApp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.31"
+            android:background="#B71E5974"
+            android:drawableRight="@drawable/rate"
+            android:fontFamily="@font/baloo_thambi"
+            android:onClick="rateThisApp"
+            android:text="Rate This App"
+            android:textColor="#F0F7EE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMoreApp"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="260dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.31"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:background="#A91E5974"
+            android:drawableRight="@drawable/more"
+            android:fontFamily="@font/baloo_thambi"
+            android:onClick="moreApps"
+            android:text="More Apps"
+            android:textColor="#E6F1E5"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="366dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6165143774808397/5349846401"></com.google.android.gms.ads.AdView>
+</RelativeLayout>
